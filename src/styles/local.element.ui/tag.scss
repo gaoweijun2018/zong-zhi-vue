@@ -1,0 +1,27 @@
+.el-tag {
+    color: #409EFF;
+    border-radius: 2px;
+    border:1px solid rgba(0,0,0,0.15);
+}
+
+.el-tag .el-icon-close {
+    border-radius: 0;
+}
+
+.el-tag.el-tag--info .el-tag__close {
+    background-color: transparent;
+    font-size: 10px;
+}
+
+.el-tag.el-tag--info {
+    background:rgba(0,0,0,0.04);
+    font-size:12px;
+    font-weight:400;
+    color:rgba(0,0,0,0.65);
+}
+
+.el-tag.el-tag--info .el-tag__close:hover {
+    //color: #FFF;
+    color:rgba(0,0,0,0.65);
+    background-color: transparent;
+}

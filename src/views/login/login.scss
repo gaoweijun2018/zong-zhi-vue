@@ -1,0 +1,88 @@
+.login-container {
+    width: 100%;
+    height: 100vh;
+    min-height: 620px;
+    overflow: auto;
+    background-image: url('../../assets/login-images/login-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login__right {
+    width: 448px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 12px 48px 16px rgba(0, 0, 0, 0.03), 0px 9px 28px 0px rgba(0, 0, 0, 0.05), 0px 6px 16px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    position: relative;
+
+    .login-title {
+        margin: 40px 0 24px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.65);
+
+
+        .login-title__text {
+            height: 32px;
+            line-height: 32px;
+        }
+    }
+
+    .login-form {
+        width: 100%;
+        position: relative;
+        padding: 0 40px;
+        overflow: hidden;
+
+        .code-form-item {
+            width: 274px;
+            margin-right: 8px;
+        }
+
+        .svg-icon {
+            margin-left: 12px;
+            margin-right: 8px;
+        }
+
+        .copy-right {
+            height: 20px;
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.45);
+            line-height: 20px;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+    }
+
+    ::v-deep {
+        .el-button {
+            margin-bottom: 84px;
+        }
+    }
+
+    .authority {
+        position: absolute;
+        width: 100%;
+        bottom: 16px;
+        text-align: center;
+    }
+}
+
+
+::v-deep {
+    .el-input {
+        height: 40px;
+    }
+
+    .el-button {
+        height: 40px;
+    }
+}
+
+
+::v-deep .el-form-item__content input {
+    height: 100%;
+}

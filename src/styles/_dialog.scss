@@ -1,0 +1,73 @@
+.el-dialog__header {
+    padding: 0 32px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom: 1px solid #E8E8E8;
+
+    .el-dialog__title {
+        font-size: 16px;
+    }
+
+    .el-dialog__headerbtn {
+        top: 11px;
+        right: 32px;
+    }
+}
+
+.el-dialog__body {
+    padding: 12px 32px 0;
+
+    .el-form-item {
+        margin-bottom: 12px;
+    }
+
+    .el-form-item__label {
+        padding-bottom: 0;
+        line-height: 28px;
+    }
+
+    .el-form-item__content {
+        .el-input {
+            input {
+                height: 32px;
+            }
+        }
+
+        .el-select,  {
+            width: 100%;
+        }
+
+        .el-date-editor.el-input {
+            width: 100%;
+        }
+    }
+
+    // 弹出框列表
+    .dialog-list {
+        .table-header-cell {
+            background-color: rgba(245,246,247,1);
+            padding: 2.5px 0;
+        }
+
+        .cell {
+            text-align: center;
+        }
+    }
+}
+
+.el-dialog__footer {
+    padding: 12px 36px 24px;
+}
+
+.el-form-item__error {
+    padding-top: 0;
+}
+
+
+
+
+//.el-message-box {
+//    padding: 32px;
+//}
+

@@ -1,0 +1,68 @@
+/* Variables */
+
+// Base color
+$blue: #324157;
+$light-blue: #3A71A8;
+$red: #C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow: #FEC171;
+$panGreen: #30B08F;
+
+// UI kit color
+$primaryColor: #005BB5;
+$tab1Color: #0D94DF;
+$tab2Color: #0A0F1D;
+$supportColor: #0D94DF;
+$hoverColor: #E9F6FD;
+$dangerColor: #FF4D4F;
+$labelColor: #FFF4F4;
+$successColor: #005BB5;
+$labelColor2: #F8FFF1;
+$warningColor: #FD9728;
+$clickable: #006BEC;
+$borderColor: rgba(0,0,0,0.06);
+
+// Font Color
+$normal: rgba(0, 0, 0, 0.85);
+$subTitle: rgba(0, 0, 0, 0.65);
+$tip: rgba(0, 0, 0, 0.45);
+$info: rgba(0, 0, 0, 0.25);
+
+// Sidebar
+$sideBarWidth: 256px;
+$sideBarMenuHeight: 40px;
+
+// 侧边栏背景色
+$menuBg: #143270;
+$menuActiveBg: #005BB5;
+$menuHoverBg: #005BB5;
+
+$subMenuBg: rgba(0,0,0,0.15);
+$activeSubMenuBg: #005BB5;
+$subMenuHover: #FFF;
+$subMenuActiveText: #FFF;
+
+$menuText: #bfcbd9;
+$menuActiveText: #FFF; // Also see settings.sidebarTextTheme
+$elMenuHeight: 40px;
+
+// Nav
+$navHeight: 64px;
+$breadcrumbHeight: 56px;
+$fixHeaderColor: #fff;
+
+// Login page
+$lightGray: #eee;
+$darkGray: #889aa4;
+$loginBg: #fff;
+$loginCursorColor: $normal;
+
+// The :export directive is the magic sauce for webpack
+// https://mattferderer.com/use-sass-variables-in-typescript-and-javascript
+:export {
+    menuBg: $menuBg;
+    menuText: $menuText;
+    menuActiveText: $menuActiveText;
+}

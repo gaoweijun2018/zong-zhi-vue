@@ -1,0 +1,28 @@
+pipeline {
+    agent none
+    stages {
+        stage('Build') {
+            agent {
+                docker {
+                    image 'neatous/yarn'
+                }
+            }
+            steps {
+                sh '''
+                npm config set registry https://registry.npm.taobao.org
+                sh jenkins/staging/scripts/build.sh
+                '''
+            }
+        }
+         stage('Deliver') {
+            agent {
+                docker {
+                    image 'pwbdod/docker-compose-aws-tf'
+                }
+            }
+            steps {
+                sh 'sh jenkins/staging/scripts/deliver.sh'
+            }
+        }
+    }
+}

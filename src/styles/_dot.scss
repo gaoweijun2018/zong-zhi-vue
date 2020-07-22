@@ -1,0 +1,35 @@
+.dot {
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  margin-bottom: 3px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.success-dot > .dot {
+  background-color: $successColor;
+}
+
+.error-dot > .dot {
+  background-color: $dangerColor;
+}
+.error-dot {
+
+}
+
+.processing-dot > .dot {
+  background-color: $info;
+}
+
+.processing-dot {
+
+}
+
+.warning-dot > .dot {
+  background-color: $warningColor;
+}
+
+.default-dot > .dot {
+  background-color: rgba(0,0,0,0.15);
+}

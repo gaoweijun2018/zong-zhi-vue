@@ -1,0 +1,28 @@
+.form-page {
+    .el-form-item__label {
+        height: 22px;
+        line-height: 22px;
+        margin-bottom: 8px;
+        padding: 0;
+    }
+}
+
+.el-form-item__error {
+    padding-top: 4px;
+}
+
+.el-form-item__content {
+    line-height: 32px;
+}
+
+.el-select, .el-input {
+    width: 100%;
+}
+
+.el-date-editor.el-input, .el-date-editor.el-input__inner {
+    width: 100%;
+}
+
+.el-date-editor .el-range__icon, .el-date-editor .el-range-separator {
+    line-height: 24px;
+}
